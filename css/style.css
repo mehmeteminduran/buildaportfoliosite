@@ -1,0 +1,113 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    padding: 20px 0;
+    font: 200 14px "Lato", sans-serif;
+  }
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: .2rem; 
+}
+  
+.logo{
+    max-width: 90px;
+    max-height: 90px; 
+}
+
+.header-info{
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.horizontal-line { 
+    border-color: #7d97ad;
+    border-style: solid none;
+    border-width: 2px 0; 
+}
+
+#wrapimg{
+    text-align: center; 
+}
+
+#featured-work{
+    margin-top: 40px; 
+}
+
+.text-gray{
+    color: #7d97ad;
+}
+
+.figure-img{
+    min-height: 200px;
+}
+
+.header-work{
+    text-align: center;
+    text-transform: uppercase;
+    color: #2d3c49;
+}
+
+.link-work{ 
+    text-align: center; 
+}
+.feature-div{
+    color: #7d97ad;
+    margin-left: 20px;
+}
+  /* Extra small devices (portrait phones, less than 576px)*/
+@media screen and (max-width: 575.98px) {
+    .header-info {
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 5px;
+      }
+      .logo{
+        float: center; 
+    }
+    #hWork{
+        font-size: 1.5em;
+    } 
+    .header-work{
+        font-size: 1.5em;
+    } 
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .logo{ 
+        float: left;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .logo{ 
+        float: left;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+      .logo{ 
+        float: left;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media screen and (min-width: 1200px) {
+      .logo{ 
+        float: left;
+    }
+}
